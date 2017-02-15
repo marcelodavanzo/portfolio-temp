@@ -1,0 +1,140 @@
+/*
+ Description:   Marcelo Davanzo
+ Author:        Marcelo Davanzo
+ Author URI:    http://www.marcelodavanzo.com
+ Version:       1.0.0
+*/
+
+/* -------------------------------- 
+// DEFAULTS
+-------------------------------- */
+.project .hero-case,
+.casestudy {
+  
+}
+.no-touch .casestudy .cta:hover,
+.touch .casestudy .cta:active {
+	
+}
+.project .white-bg {
+  background-color:#fff;
+}
+.project .grey-bg {
+  background-color:#f9f9f9;
+}
+.project .darker-shade {
+  background-color:rgba(0,0,0,0.1);
+}
+.project .lighter-shade {
+  background-color:rgba(255,255,255,0.1);
+}
+
+/* -------------------------------- 
+// ADSTREAM-TASKS
+-------------------------------- */
+.project-adstream-tasks .hero-case,
+.project-adstream-tasks.casestudy {
+  /*background-color:#0899c6;*/
+}
+.no-touch .casestudy.project-adstream-tasks .cta:hover,
+.touch .casestudy.project-adstream-tasks .cta:active {
+	color:#0899c6;
+}
+
+/* -------------------------------- 
+// ADSTREAM-LIBRARY
+-------------------------------- */
+.project-adstream-library .hero-case,
+.project-adstream-library.casestudy {
+  /*background-color:#78ba7d;*/
+}
+.no-touch .casestudy.project-adstream-library .cta:hover,
+.touch .casestudy.project-adstream-library .cta:active {
+	color:#78ba7d;
+}
+
+/* -------------------------------- 
+// ADSTREAM-INDESIGN-PLUGIN
+-------------------------------- */
+.no-touch .casestudy.project-adstream-indesign-plugin .cta:hover,
+.touch .casestudy.project-adstream-indesign-plugin .cta:active {
+	color:#33383D;
+}
+
+/* -------------------------------- 
+// ADSTREAM-UI-LIBRARY
+-------------------------------- */
+.no-touch .casestudy.project-adstream-ui-library .cta:hover,
+.touch .casestudy.project-adstream-ui-library .cta:active {
+	color:#855BA9;
+}
+
+/* -------------------------------- 
+// ADSTREAM-COSTS
+-------------------------------- */
+.no-touch .casestudy.project-adstream-costs .cta:hover,
+.touch .casestudy.project-adstream-costs .cta:active {
+	color:#3e7bbf;
+}
+
+/* -------------------------------- 
+// MOL-SPECS
+-------------------------------- */
+.project-mol-specs .hero-case,
+.project-mol-specs.casestudy {  /*background-color:#efa555;*/
+  /*background-image:url('../img/projects/mol-specs/bg.jpg');*/
+}
+.no-touch .casestudy.project-mol-specs .cta:hover,
+.touch .casestudy.project-mol-specs .cta:active {
+    color: #efa555;
+} 
+
+/* -------------------------------- 
+// MOL-ADSALES
+-------------------------------- */
+.project-mol-adsales .hero-case,
+.project-mol-adsales.casestudy {
+  /*background-image:url('../img/projects/mol-adsales/bg.jpg');*/
+}
+.no-touch .casestudy.project-mol-adsales .cta:hover,
+.touch .casestudy.project-mol-adsales .cta:active {
+    color: #475a72;
+}  
+
+/* -------------------------------- 
+// MOL-SHOWCASE
+-------------------------------- */
+.project-mol-showcase .hero-case,
+.project-mol-showcase.casestudy {
+  /*background-image:url('../img/projects/mol-showcase/bg.jpg');*/
+}
+.no-touch .casestudy.project-mol-showcase .cta:hover,
+.touch .casestudy.project-mol-showcase .cta:active {
+    color: #5f86ba;
+}
+
+/* -------------------------------- 
+// RED
+-------------------------------- */
+.project-red .hero-case {
+  background-color:#ff5a5f;
+}
+
+/* -------------------------------- 
+// YELLOW
+-------------------------------- */
+.project-yellow .hero-case {
+  background-color:#ffd366;
+}
+
+/* -------------------------------- 
+// MEDIA QUERIES
+-------------------------------- */
+@media screen and (max-width:1024px){
+  .project .hero-case {
+    background-attachment:initial;
+    background-position:top center;
+    background-size:200%;
+    background-repeat:no-repeat;
+  }
+}

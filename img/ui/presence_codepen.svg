@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+    <title>presence_codepen</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M36.6068776,1.12070151 C38.4808473,-0.0505295934 41.5192032,-0.0504980087 43.3931224,1.12070151 L76.6068776,21.8792985 C78.4808473,23.0505296 80,25.7921947 80,28.0018785 L80,48.9981215 C80,51.208298 78.5049563,53.9717784 76.6412776,55.1831696 L43.3587224,76.8168304 C41.5037513,78.0225617 38.5049563,78.0282216 36.6412776,76.8168304 L3.35872243,55.1831696 C1.50375125,53.9774383 0,51.2078053 0,48.9981215 L0,28.0018785 C0,25.791702 1.51920319,23.050498 3.39312241,21.8792985 L36.6068776,1.12070151 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="80" height="77.4809625" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="80" height="77.4809625" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <polygon id="path-5" points="40 -26 80 -1 80 28 40 54 0 28 0 -1"></polygon>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="80" height="80" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <polygon id="path-7" points="40 24 80 49 80 78 40 104 0 78 0 49"></polygon>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="80" height="80" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+    </defs>
+    <g id="Social-presence-icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="White" transform="translate(-10.000000, -10.000000)">
+            <g id="codepen" transform="translate(10.000000, 11.000000)">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g stroke="#B0B5BB" mask="url(#mask-2)" stroke-width="14">
+                    <use mask="url(#mask-4)" xlink:href="#path-1"></use>
+                </g>
+                <rect id="Rectangle-3" fill="#B0B5BB" mask="url(#mask-3)" x="37" y="52" width="6" height="20"></rect>
+                <rect id="Rectangle-3" fill="#B0B5BB" mask="url(#mask-3)" x="37" y="7" width="6" height="20"></rect>
+                <g mask="url(#mask-3)" stroke-width="14" stroke="#B0B5BB">
+                    <use mask="url(#mask-6)" xlink:href="#path-5"></use>
+                </g>
+                <g mask="url(#mask-3)" stroke-width="14" stroke="#B0B5BB">
+                    <use mask="url(#mask-8)" xlink:href="#path-7"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

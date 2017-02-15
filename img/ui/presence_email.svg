@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+    <title>presence_email</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0,33.0071897 C0,30.7940799 1.43541462,27.923439 3.20575178,26.5956862 L36.7942482,1.40431383 C38.564736,0.0764479691 41.4354146,0.0765609634 43.2057518,1.40431383 L76.7942482,26.5956862 C78.564736,27.923552 80,30.7942683 80,33.0071897 L80,74.9928103 C80,77.2059201 78.2169203,79 76.0054168,79 L3.99458325,79 C1.78843584,79 0,77.2057317 0,74.9928103 L0,33.0071897 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="80" height="78.5915432" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="80" height="78.5915432" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M36.8752514,48.027718 C38.6019196,46.6538584 41.4008197,46.653395 43.1280704,48.027718 L78.927659,76.5124071 C80.6543273,77.8862667 80.2585102,79 78.0540992,79 L1.9492225,79 C-0.259899553,79 -0.651587958,77.8867301 1.0756627,76.5124071 L36.8752514,48.027718 Z" id="path-5"></path>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="80.0049663" height="32.0028505" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+    </defs>
+    <g id="Social-presence-icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="White" transform="translate(-10.000000, -10.000000)">
+            <g id="email" transform="translate(10.000000, 11.000000)">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="envelope" stroke="#B0B5BB" mask="url(#mask-2)" stroke-width="14">
+                    <use mask="url(#mask-4)" xlink:href="#path-1"></use>
+                </g>
+                <path d="M4.70378872,53 L29,32.174676" id="Line" stroke="#B0B5BB" stroke-width="7" stroke-linecap="square" mask="url(#mask-3)" transform="translate(16.851894, 42.587338) scale(-1, 1) translate(-16.851894, -42.587338) "></path>
+                <path d="M51,53 L75.2962113,32.174676" id="Line" stroke="#B0B5BB" stroke-width="7" stroke-linecap="square" mask="url(#mask-3)"></path>
+                <g id="Rectangle-1" mask="url(#mask-3)" stroke-width="14" stroke="#B0B5BB">
+                    <use mask="url(#mask-6)" xlink:href="#path-5"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

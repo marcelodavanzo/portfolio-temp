@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>presence_dribbble</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="40" cy="40" r="40"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="80" height="80" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="80" height="80" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Social-presence-icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="White" transform="translate(-10.000000, -10.000000)">
+            <g id="dribbble" transform="translate(10.000000, 10.000000)">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g stroke="#C4C8CC" mask="url(#mask-2)" stroke-width="14">
+                    <use mask="url(#mask-4)" xlink:href="#path-1"></use>
+                </g>
+                <path d="M4,36 C4,36 49,39 68,13" id="Path-19" stroke="#C4C8CC" stroke-width="7" mask="url(#mask-3)"></path>
+                <path d="M7,55 C7,55 49,49 76,24" id="Path-19" stroke="#C4C8CC" stroke-width="7" mask="url(#mask-3)" transform="translate(41.500000, 39.500000) rotate(-90.000000) translate(-41.500000, -39.500000) "></path>
+                <path d="M16,63.7138398 C16,63.7138398 53,76.7138398 76,40.7138398" id="Path-19" stroke="#C4C8CC" stroke-width="7" mask="url(#mask-3)" transform="translate(46.000000, 53.356920) scale(-1, -1) translate(-46.000000, -53.356920) "></path>
+            </g>
+            <g id="dribbble" transform="translate(13.000000, 12.000000)" fill="#C4C8CC">
+                <path d="M37,71 C55.2253967,71 70,56.2253967 70,38 C70,19.7746033 55.2253967,5 37,5 C18.7746033,5 4,19.7746033 4,38 C4,56.2253967 18.7746033,71 37,71 Z M37,78 C14.90861,78 -3,60.09139 -3,38 C-3,15.90861 14.90861,-2 37,-2 C59.09139,-2 77,15.90861 77,38 C77,60.09139 59.09139,78 37,78 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
