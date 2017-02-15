@@ -8,7 +8,7 @@
  Version:       2.0.0
 */
 
-/* -------------------------------- 
+/* --------------------------------
 // CSS VARIABLES
 -------------------------------- */
 :root {
@@ -16,13 +16,13 @@
   --accent-hover: #0E97DE;
   --textdark:     #3C4858;
   --textlight:    #888F99;
-  --textlightest: #C1C5C9; 
+  --textlightest: #C1C5C9;
   --bgcolor:      #FCFCFC;
   --post-width:   750px;
   --home-width:   850px;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 // GENERAL
 -------------------------------- */
 *,
@@ -31,7 +31,7 @@
   -webkit-box-sizing:border-box;
      -moz-box-sizing:border-box;
           box-sizing:border-box;
-  
+
   -webkit-tap-highlight-color:rgba(0,0,0,0);
   -webkit-overflow-scrolling:touch;
 }
@@ -52,7 +52,7 @@ body {
 	-webkit-font-smoothing:antialiased;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 // GRID SYSTEM
 -------------------------------- */
 .row {
@@ -103,7 +103,7 @@ body {
   width:calc(100% * 1 / 8);
 }
 .module {
-  
+
 }
   .gridtest .module {
     padding:10px 0;
@@ -115,7 +115,7 @@ body {
 .withcontent .module {
   padding:30px;
   padding-bottom:60px;
-  text-align:left;  
+  text-align:left;
 }
 	.module img {
 	  display:block;
@@ -135,7 +135,7 @@ body {
   float:none;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 // TYPE
 -------------------------------- */
 h1 {
@@ -176,7 +176,7 @@ figcaption {
   color:var(--textlight);
 }
 
-/* -------------------------------- 
+/* --------------------------------
 // MARK - TEXT HIGHLIGHT
 -------------------------------- */
 mark {
@@ -199,7 +199,7 @@ mark {
   text-align:right;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 // LISTS
 -------------------------------- */
 ul.list,
@@ -214,7 +214,7 @@ ol.list {
     color:inherit;
   }
 
-/* -------------------------------- 
+/* --------------------------------
 // INDENTED
 -------------------------------- */
 .indented {
@@ -223,7 +223,7 @@ ol.list {
   border-left-color:var(--accent);
 }
 
-/* -------------------------------- 
+/* --------------------------------
 // HR - HORIZONTAL RULERS
 -------------------------------- */
 hr {
@@ -236,7 +236,7 @@ hr {
   opacity:0.15;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 // CODE BLOCKS
 -------------------------------- */
 code {
@@ -271,7 +271,7 @@ code {
       overflow-y: auto;
     }
 
-/* -------------------------------- 
+/* --------------------------------
 // MATERIAL ICONS
 -------------------------------- */
 .material-icons.md-18 { font-size: 18px; }
@@ -279,7 +279,7 @@ code {
 .material-icons.md-36 { font-size: 36px; }
 .material-icons.md-48 { font-size: 48px; }
 
-/* -------------------------------- 
+/* --------------------------------
 // VIDEO PLAYERS
 -------------------------------- */
 .videoWrapper-169 {
@@ -304,7 +304,7 @@ code {
     max-width 300px;
   }
 
-/* -------------------------------- 
+/* --------------------------------
 // QUOTES
 -------------------------------- */
 blockquote {
@@ -340,10 +340,10 @@ blockquote {
     position:relative;
 	}
 	blockquote footer cite {
-    
+
 	}
 
-/* -------------------------------- 
+/* --------------------------------
 // CHIPS
 -------------------------------- */
 .chip {
@@ -356,7 +356,7 @@ blockquote {
   color:#838E9E;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 // LINKS
 -------------------------------- */
 a,
@@ -372,7 +372,7 @@ a:visited {
     color:var(--accent-hover);
   }
 
-/* -------------------------------- 
+/* --------------------------------
 // FANCY LINK
 -------------------------------- */
 .fancy-link {
@@ -401,7 +401,7 @@ a:visited {
               transform:scale3d(1,1,1);
     }
 
-/* -------------------------------- 
+/* --------------------------------
 // ACCORDION
 -------------------------------- */
 .accordion {
@@ -417,7 +417,7 @@ a:visited {
     margin-bottom:2rem;
   }
 
-/* -------------------------------- 
+/* --------------------------------
 // FLEX
 -------------------------------- */
 .flex-it {
@@ -564,14 +564,14 @@ a:visited {
   flex: 1;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 // INNER
 -------------------------------- */
 .inner {
   width:100%;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 // MAX-WIDTH
 -------------------------------- */
 .max-width {
@@ -589,7 +589,7 @@ a:visited {
     margin-top:60px;
   }
 
-/* -------------------------------- 
+/* --------------------------------
 // PADDING
 -------------------------------- */
 .padding {
@@ -608,7 +608,7 @@ a:visited {
   padding:0 2rem;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 // HTML CONTENT
 -------------------------------- */
 .html-content .inner > * {
@@ -663,7 +663,7 @@ a:visited {
   left:-50%;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 // CTA
 -------------------------------- */
 .cta {
@@ -687,7 +687,7 @@ a:visited {
     opacity:1;
   }
 
-/* -------------------------------- 
+/* --------------------------------
 // SECTIONS
 -------------------------------- */
 .section {
@@ -701,7 +701,7 @@ a:visited {
       text-shadow:2px 2px 0 rgba(0,0,0,0.3);
     }
 
-/* -------------------------------- 
+/* --------------------------------
 // HEADER
 -------------------------------- */
 .header-nav {
@@ -762,7 +762,7 @@ a:visited {
     border-radius:50%;
     overflow:hidden;
     border:10px solid rgba(255,255,255,0.1);
-    background-image:url(img/ui/logo-davanzo.png);
+    background-image:url(../img/ui/logo-davanzo.png);
     background-repeat:no-repeat;
     background-color:#1e8fc5;
     background-color:var(--accent);
@@ -782,7 +782,7 @@ a:visited {
       bottom:0;
       left:0;
       margin:auto;
-      background:url(img/ui/spinner.png) no-repeat center;
+      background:url(../img/ui/spinner.png) no-repeat center;
       background-size:30%;
       -webkit-animation:spin 650ms linear infinite;
               animation:spin 650ms linear infinite;
@@ -816,7 +816,7 @@ a:visited {
     transition-delay:0ms;
   }
 
-  /* -------------------------------- 
+  /* --------------------------------
   // STICKY
   -------------------------------- */
   .sticky-nav .header-nav {
@@ -832,7 +832,7 @@ a:visited {
     }
   }
 
-  /* -------------------------------- 
+  /* --------------------------------
   // BURGER
   -------------------------------- */
 	.header-nav .burger {
@@ -856,7 +856,7 @@ a:visited {
             transform:rotate(45deg) translate3d(-4px,-4px,0);
   }
 
-/* -------------------------------- 
+/* --------------------------------
 // SOCIAL
 -------------------------------- */
 .header-nav .social {
@@ -915,25 +915,25 @@ a:visited {
       background-size:50%;
     }
     .social a.email:before {
-      background-image:url(img/ui/presence_email.svg);
+      background-image:url(../img/ui/presence_email.svg);
     }
     .social a.email {
       position:relative;
       z-index:3;
     }
     .social a.codepen:before {
-      background-image:url(img/ui/presence_codepen.svg);
+      background-image:url(../img/ui/presence_codepen.svg);
     }
     .social a.dribbble:before {
-      background-image:url(img/ui/presence_dribbble.svg);
+      background-image:url(../img/ui/presence_dribbble.svg);
     }
     .social a.dribbble {
       background:none;
     }
     .social a.linkedin:before {
-      background-image:url(img/ui/presence_linkedin.svg);
+      background-image:url(../img/ui/presence_linkedin.svg);
     }
-		
+
 		.header-nav .social a.email,
 		.header-nav .social a.codepen,
 		.header-nav .social a.dribbble,
@@ -944,14 +944,14 @@ a:visited {
 .sticky-nav .header-nav .social a {
   background:none;
 }
-    
+
     .no-touch .social a:hover {
     	opacity:1;
       -webkit-transform:scale3d(1.1,1.1,1);
               transform:scale3d(1.1,1.1,1);
     }
 
-/* -------------------------------- 
+/* --------------------------------
 // KEYFRAME ANIMATIONS
 -------------------------------- */
 @-webkit-keyframes spin {
@@ -963,7 +963,7 @@ a:visited {
   100% { transform:rotate(360deg) }
 }
 
-/* -------------------------------- 
+/* --------------------------------
 // ABOUT
 -------------------------------- */
 .about {
@@ -984,11 +984,11 @@ a:visited {
     margin-left: 4px;
   }
 
-/* -------------------------------- 
+/* --------------------------------
 // CASE STUDY CARDS
 -------------------------------- */
 .cards-container {
-  
+
 }
   .home .cards-container .inner {
     padding-bottom: 80px;
@@ -1043,7 +1043,7 @@ a:visited {
     .casestudy .client-logo img {
       margin:0;
     }
-  
+
   .casestudy .copy {
     max-width:initial;
     margin-bottom: 24px;
@@ -1075,7 +1075,7 @@ a:visited {
         opacity:0.8;
       }
 
-/* -------------------------------- 
+/* --------------------------------
 // TOOLTIPS
 -------------------------------- */
 [data-tooltip] {
@@ -1104,9 +1104,9 @@ a:visited {
     visibility: visible;
     opacity: 1;
     transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
-  } 
+  }
 
-/* -------------------------------- 
+/* --------------------------------
 // PROJECT COLOURS & HEROES
 -------------------------------- */
 .hero-case,
@@ -1124,7 +1124,7 @@ a:visited {
     color:white;
 	}
 
-/* -------------------------------- 
+/* --------------------------------
 // CLIENT LOGOS
 -------------------------------- */
 .client-logo {
@@ -1132,12 +1132,12 @@ a:visited {
   margin:0 auto;
 }
   .client-logo img {
-    display:block;    
+    display:block;
     height:100%;
     margin:0 auto;
   }
 
-/* -------------------------------- 
+/* --------------------------------
 // DRIBBBLE
 -------------------------------- */
 .dribbble {
@@ -1162,7 +1162,7 @@ a:visited {
       width:80px;
       height:80px;
       margin:auto;
-      background:url(img/ui/spinner.png) no-repeat center;
+      background:url(../img/ui/spinner.png) no-repeat center;
       background-size:50px;
       position:absolute;
       top:50px;
@@ -1240,7 +1240,7 @@ a:visited {
         -webkit-transform:scale3d(1.2,1.2,1) translate3d(0,0,0);
                 transform:scale3d(1.2,1.2,1) translate3d(0,0,0);
         perspective:1000px;
-        /*        
+        /*
         -webkit-transform-origin:center right;
                 transform-origin:center right;
         */
@@ -1257,7 +1257,7 @@ a:visited {
         }
         .no-touch .dribbble ul li:hover img,
         .touch .dribbble ul li:active img {
-          
+
         }
       .dribbble ul li .info .details {
         width:100%;
@@ -1298,7 +1298,7 @@ a:visited {
                 transition:all 300ms;
       }
 
-/* -------------------------------- 
+/* --------------------------------
 // CONTACT FOOTER
 -------------------------------- */
 .contact {
@@ -1322,13 +1322,13 @@ a:visited {
   color:var(--textlight);
 }
 
-/* -------------------------------- 
+/* --------------------------------
 // ERROR 404 PAGE
 -------------------------------- */
 
 
 
-/* -------------------------------- 
+/* --------------------------------
 // PASSWORD PROTECTED PAGES
 -------------------------------- */
 .password-badge {
@@ -1391,7 +1391,7 @@ a:visited {
       background-color:var(--accent-hover);
     }
 
-/* -------------------------------- 
+/* --------------------------------
 // CUSTOM SCROLLBAR
 -------------------------------- */
 /*
@@ -1413,7 +1413,7 @@ a:visited {
   }
 */
 
-/* -------------------------------- 
+/* --------------------------------
 // SELECTION COLORS
 -------------------------------- */
 ::selection {
@@ -1426,7 +1426,7 @@ a:visited {
   background-color:rgba(75,95,120,0.1);
 }
 
-/* -------------------------------- 
+/* --------------------------------
 // NO SELECT
 -------------------------------- */
 .noselect {
@@ -1438,7 +1438,7 @@ a:visited {
             user-select:none;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 /* NO TRANSITION
 -------------------------------- */
 .notransition {
@@ -1449,14 +1449,14 @@ a:visited {
           transition: none !important;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 /* HIDE
 -------------------------------- */
 .hide {
   display:none !important;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 // PROJECTS
 -------------------------------- */
 .project {
@@ -1568,7 +1568,7 @@ a:visited {
   }
 
 .sticky-nav .header-nav .location {
-  display:none;   
+  display:none;
 }
 .sticky-nav .header-nav .social {
 	margin:0;
@@ -1588,7 +1588,7 @@ a:visited {
   }
   .project .hero-case .inner {
     position:relative;
-    z-index:2;  
+    z-index:2;
   }
   .project .hero-case .client-logo {
     margin-bottom:4rem;
@@ -1620,7 +1620,7 @@ a:visited {
   background-color:rgba(255,255,255,0.1);
 }
 
-/* -------------------------------- 
+/* --------------------------------
 // SWIPER
 -------------------------------- */
 .swiper-pagination {
@@ -1663,7 +1663,7 @@ a:visited {
                 0  4px  6px rgba(0,0,0,0.08);
   }
 
-/* -------------------------------- 
+/* --------------------------------
 // MEDIA QUERIES
 -------------------------------- */
 
@@ -1772,7 +1772,7 @@ a:visited {
       -webkit-transform:translate3d(0,200%,0);
               transform:translate3d(0,200%,0);
     }
-  
+
   .sticky-nav .header-nav .inner.padding-sides {
   	padding:0 1rem;
   }
@@ -1787,7 +1787,7 @@ a:visited {
   .sticky-nav .header-nav .copy {
   	font-size:60%;
   }
-    
+
   .sticky-nav .hero-case {
   	padding-top:calc(60px + 4rem);
   }
@@ -1836,8 +1836,8 @@ a:visited {
   .dribbble ul li .info .details {
   	font-size:13px;
   }
-  
-  /* -------------------------------- 
+
+  /* --------------------------------
   // GRID SYSTEM
   -------------------------------- */
   .row,
@@ -1855,7 +1855,7 @@ a:visited {
     width:100%;
     float:none;
   }
-  
+
   [class*='col-'] {
     margin-bottom:30px;
     padding-right:0;
@@ -1875,7 +1875,7 @@ a:visited {
     .grid-pad [class*='col-']:last-of-type {
       padding-right:0;
     }
-  
+
   .header-nav {
     height:80vh;
     min-height:480px;

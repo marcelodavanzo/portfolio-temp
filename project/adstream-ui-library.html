@@ -160,14 +160,14 @@
 <h3>Components</h3>
 <p>I started out by looking at each of Adstream’s products and discerning common patterns and components. From the most basic such as labels, icons, buttons, checkboxes, radio buttons, dropdowns, accordions; to more complex combinations such as panels, user tables, different types of modals, and so on.</p>
 <figure class="full-width">
-  <img src="//www.marcelodavanzo.com/wp-content/themes/davanzo/img/projects/ap-ui-lib/components.jpg" /></p>
+  <img src="../img/projects/ap-ui-lib/components.jpg" /></p>
 <figcaption>Some of my early sketches.</figcaption>
 </figure>
 <p>Having this granular approach allowed me to see the pattern library as a modular set of blocks we could put together to form larger and more complex structures. I didn’t go full on Atomic Design on this project but I did keep some of these principles in mind when categorising elements which definitely helped speed up the process and tie everything together nicely.</p>
 <h3>Deciding on a framework</h3>
 <p>The next step was to work with the development team and see what was readily available on the framework they were using to build the new version of the platform. Luckily they were using Angular Material which comes pre-packed with lots of useful components we could work with without much hassle. Some components would require a small amount of customisation, but for the most part, Angular Material provided a very solid starting point for what we wanted to achieve.</p>
 <figure class="outset">
-	<img src="//www.marcelodavanzo.com/wp-content/themes/davanzo/img/projects/ap-ui-lib/framework.png" /><br />
+	<img src="../img/projects/ap-ui-lib/framework.png" /><br />
 </figure>
 <hr>
 <h2>Grid</h2>
@@ -180,25 +180,25 @@
 	</footer>
 </blockquote>
 <figure class="full-width">
-	<img src="//www.marcelodavanzo.com/wp-content/themes/davanzo/img/projects/ap-ui-lib/grid.png" /><br />
+	<img src="../img/projects/ap-ui-lib/grid.png" /><br />
 </figure>
 <p>As an example, on the Adstream Library, we have a fixed side panel of 320px on the left and that&#8217;s always there regardless of what device you are on. However, the main view to the right of this panel contains thumbnails of your assets, within that view we apply our 1280px grid, but in this particular case, the 320px panel is excluded from the grid. This allows our users to use their full screen real estate to preview their assets in the Library, which we validated as a better solution than constraining them to 1280px at all times for this particular case.</p>
 <figure class="inset">
-	<img src="//www.marcelodavanzo.com/wp-content/themes/davanzo/img/projects/ap-ui-lib/grid-exception.png" /></p>
+	<img src="../img/projects/ap-ui-lib/grid-exception.png" /></p>
 <figcaption>Screengrab shamelessly taken directly from Zeplin.</figcaption>
 </figure>
 <hr>
 <h2>Typography</h2>
 <p>Typography and semantics are very important aspects of what makes a web application accessible to users who rely on-screen readers. For this reason, our approach to typography was to not use elements such as <code class="inline">h1</code>, <code class="inline">h2</code>, <code class="inline">h3</code> to determine style. These elements are used for content hierarchy, making it easier for screen readers to consume the content and their style is limited to a specific font-size set in rem for which the base size is 16px. Styles such as font-weight, color, are all applied as modifier classes such as <code class="inline">.font-weight-light</code>, <code class="inline">.font-weight-medium</code>, <code class="inline">.font-weight-bold</code>, etc.</p>
 <figure class="full-width">
-	<img src="//www.marcelodavanzo.com/wp-content/themes/davanzo/img/projects/ap-ui-lib/type.png" /></p>
+	<img src="../img/projects/ap-ui-lib/type.png" /></p>
 <figcaption>Effra is the typeface we used.</figcaption>
 </figure>
 <hr>
 <h2>Iconography</h2>
 <p>We used an icon set that is based on a 32px grid size and 2px lines. The idea is to refine and redesign them as our product and brand evolves.</p>
 <figure class="full-width">
-  <img src="//www.marcelodavanzo.com/wp-content/themes/davanzo/img/projects/ap-ui-lib/research.jpg" /><br />
+  <img src="../img/projects/ap-ui-lib/research.jpg" /><br />
 </figure>
 <hr>
 <h2>Colours</h2>
@@ -206,17 +206,17 @@
 <h3>Primary</h3>
 <p>These are used for important actions and are bright and bold.</p>
 <figure class="full-width">
-  <img src="//www.marcelodavanzo.com/wp-content/themes/davanzo/img/projects/ap-ui-lib/colors-primary.png" /><br />
+  <img src="../img/projects/ap-ui-lib/colors-primary.png" /><br />
 </figure>
 <h3>Secondary</h3>
 <p>These are used to support primary colours when necessary. They are slightly less saturated and lighter versions of our Primary palette.</p>
 <figure class="full-width">
-  <img src="//www.marcelodavanzo.com/wp-content/themes/davanzo/img/projects/ap-ui-lib/colors-secondary.png" /><br />
+  <img src="../img/projects/ap-ui-lib/colors-secondary.png" /><br />
 </figure>
 <h3>Shades of grey</h3>
 <p>We would in some parts of the platform, have a need for a dark version of our UI. I kept this in mind when defining this palette. This is why we’ve got plenty of shades of grey to pick from, but essentially every colour on the shades of grey palette has an equivalent counterpart that provides enough contrast against a dark background and this principle applies to every component.</p>
 <figure class="full-width">
-  <img src="//www.marcelodavanzo.com/wp-content/themes/davanzo/img/projects/ap-ui-lib/colors-gray.png" /><br />
+  <img src="../img/projects/ap-ui-lib/colors-gray.png" /><br />
 </figure>
 <p>You can literally drop a <code class="inline">.dark-ui</code> modifier class to an entire section and have all its children adjust accordingly.</p>
 <figure class="full-width">
@@ -245,23 +245,23 @@
 <h2>Interactions &amp; micro-interactions</h2>
 <p>Below are some examples of the way we envisioned the micro-interactions on some of our components.</p>
 <div class="flex-it flex-align-item-start" style="margin-bottom:10px;">
-<img style="width:33.33%; height:auto; margin-right:10px;" src="//www.marcelodavanzo.com/wp-content/themes/davanzo/img/projects/ap-ui-lib/gifs/anim_button.gif" /><br />
-<img style="width:33.33%; height:auto; margin-right:10px;" src="//www.marcelodavanzo.com/wp-content/themes/davanzo/img/projects/ap-ui-lib/gifs/anim_switch.gif" /><br />
-<img style="width:33.33%; height:auto;" src="//www.marcelodavanzo.com/wp-content/themes/davanzo/img/projects/ap-ui-lib/gifs/anim_avatar.gif" />
+<img style="width:33.33%; height:auto; margin-right:10px;" src="../img/projects/ap-ui-lib/gifs/anim_button.gif" /><br />
+<img style="width:33.33%; height:auto; margin-right:10px;" src="../img/projects/ap-ui-lib/gifs/anim_switch.gif" /><br />
+<img style="width:33.33%; height:auto;" src="../img/projects/ap-ui-lib/gifs/anim_avatar.gif" />
 </div>
 <div class="flex-it flex-align-item-start" style="margin-bottom:10px;">
-<img style="width:33.33%; height:auto; margin-right:10px;" src="//www.marcelodavanzo.com/wp-content/themes/davanzo/img/projects/ap-ui-lib/gifs/anim_popover.gif" /><br />
-<img style="width:33.33%; height:auto; margin-right:10px;" src="//www.marcelodavanzo.com/wp-content/themes/davanzo/img/projects/ap-ui-lib/gifs/anim_radio.gif" /><br />
-<img style="width:33.33%; height:auto;" src="//www.marcelodavanzo.com/wp-content/themes/davanzo/img/projects/ap-ui-lib/gifs/anim_accordion.gif" />
+<img style="width:33.33%; height:auto; margin-right:10px;" src="../img/projects/ap-ui-lib/gifs/anim_popover.gif" /><br />
+<img style="width:33.33%; height:auto; margin-right:10px;" src="../img/projects/ap-ui-lib/gifs/anim_radio.gif" /><br />
+<img style="width:33.33%; height:auto;" src="../img/projects/ap-ui-lib/gifs/anim_accordion.gif" />
 </div>
 <div class="flex-it flex-align-item-start" style="margin-bottom:10px;">
-<img style="width:25%; height:auto; margin-right:10px;" src="//www.marcelodavanzo.com/wp-content/themes/davanzo/img/projects/ap-ui-lib/gifs/anim_spinner.gif?" /><br />
-<img style="width:25%; height:auto; margin-right:10px;" src="//www.marcelodavanzo.com/wp-content/themes/davanzo/img/projects/ap-ui-lib/gifs/anim_checkbox.gif" /><br />
+<img style="width:25%; height:auto; margin-right:10px;" src="../img/projects/ap-ui-lib/gifs/anim_spinner.gif?" /><br />
+<img style="width:25%; height:auto; margin-right:10px;" src="../img/projects/ap-ui-lib/gifs/anim_checkbox.gif" /><br />
 <video style="width:25%; height:auto; margin-right:10px;" class="video videoFull" autoplay muted playsinline loop><source src="//zippy.gfycat.com/HarshImpracticalHarborseal.webm" type="video/mp4"></video><br />
 <video style="width:25%; height:auto;" class="video videoFull" autoplay muted playsinline loop><source src="//zippy.gfycat.com/SimilarRewardingAlabamamapturtle.webm" type="video/mp4"></video>
 </div>
 <div class="flex-it flex-align-item-start" style="margin-bottom:10px;">
-<img style="width:100%; height:auto;" src="//www.marcelodavanzo.com/wp-content/themes/davanzo/img/projects/ap-ui-lib/gifs/anim_table.gif" />
+<img style="width:100%; height:auto;" src="../img/projects/ap-ui-lib/gifs/anim_table.gif" />
 </div>
 <hr>
 <h2>Internal resources</h2>
@@ -270,7 +270,7 @@
 <p>I&#8217;ve also revised it since the introduction of responsive symbols in Sketch 4.0 and have now made most of these components easy to adjust to whatever screen size we are designing for.</p>
 <p>The file also contains all of our text styles and color pallettes so that our designs are always consistent and we don&#8217;t need to &#8216;reinvent the wheel&#8217; at each new project.</p>
 <figure class="full-width">
-  <img src="//www.marcelodavanzo.com/wp-content/themes/davanzo/img/projects/ap-ui-lib/sketch_symbols.png" /></p>
+  <img src="../img/projects/ap-ui-lib/sketch_symbols.png" /></p>
 <figcaption>My Sketch symbols library with all of the Adstream UI components.</figcaption>
 </figure>
 <h3>The framework</h3>
@@ -283,7 +283,7 @@
 <p>A design system is only as good as its documentation, so we have been documenting all the components with Zeplin and working closely with the developers in bringing them to life one by one.</p>
 <p>The new modules of the Adstream Platform (Costs and Tasks) have already been designed with those new components and we are now in the process of rolling them out to our first users.</p>
 <figure class="outset">
-  <img src="//www.marcelodavanzo.com/wp-content/themes/davanzo/img/projects/ap-ui-lib/specs.png" /><br />
+  <img src="../img/projects/ap-ui-lib/specs.png" /><br />
 </figure>
 <hr>
 <h2>Conclusion</h2>
@@ -341,7 +341,7 @@
 
 
       <li class="swiper-slide">
-        <a href="http://www.marcelodavanzo.com/project/adstream-costs/" target="_self" class="section padding flex-it flex-col flex-justify-between casestudy project-adstream-costs" style="border-top-color:#78A6D6">
+        <a href="../project/adstream-costs/" target="_self" class="section padding flex-it flex-col flex-justify-between casestudy project-adstream-costs" style="border-top-color:#78A6D6">
             <div>
               <div class="client-logo">
                 <img src="../img/client_logos/white/adstream.svg" alt="Adstream Logo" />
@@ -361,7 +361,7 @@
 
 
       <li class="swiper-slide">
-        <a href="http://www.marcelodavanzo.com/project/adstream-indesign-plugin/" target="_self" class="section padding flex-it flex-col flex-justify-between casestudy project-adstream-indesign-plugin" style="border-top-color:#454b50">
+        <a href="../project/adstream-indesign-plugin/" target="_self" class="section padding flex-it flex-col flex-justify-between casestudy project-adstream-indesign-plugin" style="border-top-color:#454b50">
             <div>
               <div class="client-logo">
                 <img src="../img/client_logos/white/adstream.svg" alt="Adstream Logo" />
@@ -381,7 +381,7 @@
 
 
       <li class="swiper-slide">
-        <a href="http://www.marcelodavanzo.com/project/mol-specs/" target="_self" class="section padding flex-it flex-col flex-justify-between casestudy project-mol-specs" style="border-top-color:#e8bb89">
+        <a href="../project/mol-specs/" target="_self" class="section padding flex-it flex-col flex-justify-between casestudy project-mol-specs" style="border-top-color:#e8bb89">
             <div>
               <div class="client-logo">
                 <img src="../img/client_logos/white/mailonline.svg" alt="MailOnline Logo" />
@@ -401,7 +401,7 @@
 
 
       <li class="swiper-slide">
-        <a href="http://www.marcelodavanzo.com/project/mol-showcase/" target="_self" class="section padding flex-it flex-col flex-justify-between casestudy project-mol-showcase" style="border-top-color:#a1b4d5">
+        <a href="../project/mol-showcase/" target="_self" class="section padding flex-it flex-col flex-justify-between casestudy project-mol-showcase" style="border-top-color:#a1b4d5">
             <div>
               <div class="client-logo">
                 <img src="../img/client_logos/white/mailonline.svg" alt="MailOnline Logo" />
@@ -421,7 +421,7 @@
 
 
       <li class="swiper-slide">
-        <a href="http://www.marcelodavanzo.com/project/mol-adsales/" target="_self" class="section padding flex-it flex-col flex-justify-between casestudy project-mol-adsales" style="border-top-color:#475a72">
+        <a href="../project/mol-adsales/" target="_self" class="section padding flex-it flex-col flex-justify-between casestudy project-mol-adsales" style="border-top-color:#475a72">
             <div>
               <div class="client-logo">
                 <img src="../img/client_logos/white/dailymailcom.svg" alt="DailyMailcom Logo" />
