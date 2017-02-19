@@ -176,7 +176,7 @@
   </footer>
 </blockquote>
 
-<p>We found one of the most helpful indicators of usability was to look at a breakdown of all possible actions a user could take in the Library — things like uploading an asset, sharing it, previewing it, downloading it, etc. — and made our initial assumptions on what’s working vs what’s not and set our priorities based on those figures.</p>
+<p>We found one of the most helpful indicators of usability was to look at a breakdown of all possible actions a user could take in the Library — things like uploading an asset, sharing it, previewing it, downloading it, etc. — and made our initial assumptions on what’s working vs what’s not, which actions should have more prominence and set our priorities based on those figures.</p>
 
 <figure class="outset">
   <img src="../img/projects/ap-library/analytics.png" />
@@ -203,7 +203,7 @@
   <li>How the file browser aspect of each platform functions and behaves. There is a huge divide between it feeling like you are in an internet browser vs feeling like the platform is a native file browser like the Mac Finder or Windows Explorer. The latter approach is the current trend as it’s a lot more intuitive and usable overall, hence it was favoured for this project. It offers things like context menus, off-canvas elements, actions that are exposed based on your selection, drawing a shape to select files and using keyboard hotkeys to select multiple ones, single / double / right click functionality, to mention just a few.</li>
 </ul>
 
-<p>Long story short, most of my inspiration for this project came from the following products:</p>
+<p>Long story short, most of my inspiration for this project came from the products below. Even though the only direct competitor in this list is Bynder, the others provided me with ideas on how to approach certain features such as displaying assets in lists vs tiles, selecting, sorting, previewing different types of media, etc.</p>
 
 <ul class="list">
   <li>Dropbox</li>
@@ -241,7 +241,9 @@
 
 <h2>Prototyping &#038; user testing</h2>
 <p>Once we were happy with our results — and after a few internal usability and feedback sessions with members of other teams — it was time to do our homework so we could properly test things out and hear directly from our users — which is the most exciting part.</p>
-<p>This being enterprise software we had to keep in mind most of our users don’t actively choose to use our systems, their organisation chooses it for them. Because of this, these users will often have a lot to say about your products and most the time are quite happy to provide feedback on things that could make their lives easier. This makes it relatively easier for us to find users willing to participate.</p>
+<p>This being enterprise software we had to keep in mind most of our users don’t actively choose to use our systems, their organisation often chooses it for them.</p>
+<p>Because of this, it can be difficult to get a hold of users for testing, but once you get access to them, they will often have a lot to say about your product and most the time are quite happy to provide feedback on things that could make their lives easier.</p>
+<p>For this particular case, we approached a few agencies and asked for a few contacts that would be willing to participate in our tests. We explained they would be sent a link with a script to try out the new Library.</p>
 <p>All we had to do was prepare a script and a <a class="fancy-link" href="http://y2ntb8.axshare.com/#g=1&p=assets" target="_blank">prototype</a> they could play with. Long story short, we snuck some analytics scripts into our prototype and measured them on completion times, dwell times and total task completion. We tested things like uploading an asset, tagging, sharing, searching and sorting which cover 90% of what users typically do in the Library.</p>
 
 <p><strong>Adstream Library – Prototype</strong><br />
@@ -256,13 +258,14 @@ Made with: Axure</p>
 
 <h2>Results</h2>
 <p>We found that most users were able to complete the tasks quite easily and were mostly happy with the new version of the Library.</p>
-<p>The only pain point raised was creating and managing collections, which essentially work as ‘smart folders’ or ‘rules’ in Outlook. You set a few rules based on metadata and every time something is added to your Library that matches those rules, that new asset becomes part of the Collection(s) it matches.</p>
+<p>The only pain point raised was creating and managing collections, which essentially work as ‘smart folders’ or ‘rules’ in Outlook. You set a few rules based on metadata and every time something is added to your Library that matches those rules, that new asset automatically becomes part of the Collection(s) it matches.</p>
 <p>We learned that users needed a clear visual distinction between what is a ‘loose’ asset and a collection. This led us to effectively splitting both into their own areas, which is reflected on the visual designs you see below.</p>
 <hr>
 
 <h2>Visual design</h2>
 <p>We now had everything we needed to start refining the visual design and making sure this wasn’t just a UI refresh but a chance to improve upon the overall experience for our users.</p>
-<figure class="outset">
+
+<figure class="outset hide">
   <img src="https://www.dropbox.com/s/8ra563ngskcelpx/Full_height474.png?dl=1" /></p>
   <figcaption>[pic of final designs &#8211; as in the Zeplin specs. Multiple screens] Sketch symbols made testing subtle design changes very easy.</figcaption>
 </figure>
@@ -303,7 +306,7 @@ Made with: Angular Material framework — HTML, CSS &#038; JS</p>
 <p>We then documented every story in this epic to allow the devs to start bringing the Library to life. We used Zeplin for specs which saved us a lot of time and did weekly catch ups to make sure we were all on the same page and could spot inconsistencies early enough to fix them. </p>
 <figure class="outset">
   <img src="../img/projects/ap-library/zeplin.png" /></p>
-  <figcaption>All different view and layouts have been documented and described in Zeplin where we keep all our official design documentation.</figcaption>
+  <figcaption>All different views and layouts have been documented and described in Zeplin where we keep all our official design documentation.</figcaption>
 </figure>
 <hr>
 
@@ -376,6 +379,26 @@ Made with: Angular Material framework — HTML, CSS &#038; JS</p>
                 </div>
         </a><!-- /adstream-ui-library -->
       </li><!-- /slide-adstream-ui-library -->
+
+
+      <li class="swiper-slide">
+        <a href="../project/adstream-indesign-plugin.html" target="_self" class="section padding flex-it flex-col flex-justify-between casestudy project-adstream-indesign-plugin" style="border-top-color:#454b50">
+            <div>
+              <div class="client-logo">
+                <img src="../img/client_logos/white/adstream.svg" alt="Adstream Logo" />
+              </div>
+
+              <div class="copy">
+                <h3>Library ⇄ InDesign plugin</h2>
+                <h5>We developed an InDesign plugin that seamlessly integrates with the Adstream Library allowing users in digital publishing to unlock powerful new workflows.</h4>
+              </div>
+            </div>
+
+            <div class="bottom flex-it flex-row flex-align-item-center flex-justify-between">
+              <h6>6 mins read</h6>
+                </div>
+        </a><!-- /adstream-indesign-plugin -->
+      </li><!-- /slide-adstream-indesign-plugin -->
 
 
       <li class="swiper-slide">
