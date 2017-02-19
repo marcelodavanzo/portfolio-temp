@@ -102,22 +102,12 @@
 
   </header><!-- /header-nav -->
 
-
-
   <!-- HERO -->
   <section class="section padding dark hero-case" style="background-color:#454b50">
     <div class="inner padding-sides max-width">
 
       <div class="client-logo">
         <img src="../img/client_logos/white/adstream.svg" alt="Adstream Logo" />
-      </div>
-
-      <div class="palette ">
-        <div class="swatch color-1" style="background-color:#ffffff"></div>
-        <div class="swatch color-2" style="background-color:#e1e1e1"></div>
-        <div class="swatch color-3" style="background-color:#81858a"></div>
-        <div class="swatch color-4" style="background-color:#3e7bbf"></div>
-        <div class="swatch color-5" style="background-color:#222222"></div>
       </div>
 
       <div class="copy">
@@ -132,95 +122,145 @@
   <section class="section project-content html-content padding light white-bg">
     <div class="inner padding-sides max-width">
 
-      <h2>What I did</h2>
-<p>I worked with our internal design and development teams, on everything ranging from interpreting high level requirements, producing flows, scenarios, sketches, wireframes, user tests, visual designs, prototypes, interactions and micro-interactions and all sorts of UI/UX explorations.</p>
+<h2>What I did</h2>
+<p>I worked closely with the senior interaction designer, the product manager for Library, members of the Print Support team and a team of developers, on everything ranging from interpreting high level requirements, producing flows, scenarios, sketches, wireframes, user tests, visual designs, prototypes, interactions and micro-interactions and all sorts of UI/UX explorations, through to creating development specifications.</p>
 <hr>
+
 <h2>Key accomplishment 🏅</h2>
 <p>Offering a solution that integrates the Adstream Library with Adobe InDesign is a strategic move that essentially <mark>solidifies Adstream’s presence as a strong player in print-based workflows</mark> by giving current users less of a reason to leave to a competitor, <mark>while increasing brand value and potentially attracting new print business</mark>, leading to larger market share.</p>
-<figure class="full-width">
+
+<figure class="full">
 	<img src="../img/projects/ap-indesign/hero.png" /><br />
 </figure>
+
 <h2>Objective</h2>
-<p>One of the key aspects of the Adstream Platform are the capabilities it offers to print-specific workflows. Many studios, agencies, production and post-production studios use the platform to keep track of their projects, assets and collections as it allows for easy tagging, sorting, searching, annotating, sharing and version control.</p>
+<p>One of the key aspects of the Adstream Platform are the capabilities it offers to <a class="fancy-link" href="http://www.adstream.com/media-types/print-publishing/" target="_blank">print-specific workflows</a>. Many studios, agencies, production and post-production studios use the platform to keep track of their projects, assets and collections as it allows for easy tagging, sorting, searching, annotating, sharing and version control.</p>
 <p>A big part of the typical print workflow involves using Adobe InDesign to create a multitude of formats, and given this scenario, the Product team at Adstream were tasked with creating a solution that bridged the gap between InDesign’s powerful desktop publishing capabilities and the Adstream Platform, creating a seamless experience.</p>
 <hr>
+
+<h2>What is Adstream</h2>
+<p>The <a class="fancy-link" href="http://www.adstream.com/platform/" target="_blank">Adstream Platform</a> is the world&#8217;s leading cloud-based advertising workflow and collaboration software (SaaS) tool used by brands, agencies, studios and broadcasters worldwide to manage and deliver global creative content in both traditional and new media formats, connecting content to over 40,000 global destinations in over 116 countries. Everything on the Adstream Platform is searchable and reportable.</p>
+<figure class="outset">
+<div class="videoWrapper-169">
+    <iframe class="video videoFull youtube" src="https://www.youtube.com/embed/PeDl_7P2Y-A" frameborder="0" allowfullscreen></iframe>
+  </div>
+</figure>
+<hr>
+
+<h2>What is the Adstream Library</h2>
+<p>The <a class="fancy-link" href="http://www.adstream.com/platform/library" target="_blank">Adstream Library</a> is one of the main modules of the Adstream platform and it allows users to keep all their finalised assets in a central repository. It is Adstream’s Digital Asset Management (DAM) solution, used by hundreds of clients around the world to store, manage, track, and deliver marketing and advertising content.</p>
+
+<p>It allows users to tag each and every asset with fully customisable metadata regardless of media type, making their libraries fully searchable and accessible from anywhere, at any time. It offers full reporting capabilities and provides visibility on how many times each asset has been shared, viewed, downloaded, by whom amongst other data points.</p>
+
+<p>It is also fully integrated with our advertising Delivery workflow, making it very easy to digitally deliver final assets to broadcasters anywhere.</p>
+
+<hr>
+
 <h2>Brief</h2>
 <h3>Scope</h3>
 <p>Develop a Mac-only InDesign plugin that integrates with the Adstream Library and allows users to:</p>
+
 <ul class="list">
-<li>Place assets located in their Library into InDesign as linked assets.</li>
-<li>Save local InDesign links to their Library, thus making them remote links.</li>
-<li>Check links for missing or modified statuses and allow users to fix them accordingly.</li>
+  <li>Place assets located in their Library into InDesign as linked assets.</li>
+  <li>Save local InDesign links to their Library, thus making them remote links.</li>
+  <li>Check links for missing or modified statuses and allow users to fix them accordingly.</li>
 </ul>
+
 <h3>Problem to solve</h3>
 <p>Users can currently keep track of their project, assets, libraries and collections within the Adstream Platform and take advantage of its version control feature to ensure they’re always working with their latest approved assets.</p>
 <p>However, they currently have to download said assets and work with them locally. It would make their lives a lot easier if they could link directly to their own assets in the Platform, as well as being able to relink files that have been modified with a more recent version.</p>
+
 <h3>Constraints</h3>
 <p>The plugin should ideally be built as a native plugin that lives within Adobe InDesign. However, due to time constraints and technical limitations it will initially be developed as a standalone Mac application.</p>
 <p>We have also suggested it be made as a MacOS menu bar plugin for future releases and provided specs for such.</p>
 <hr>
+
 <h2>Research</h2>
 <h3>Competitive analysis</h3>
-<p>I looked at similar tools being offered by other digital asset management (DAM) platforms such as Bynder, Webdam, and Widen to see different possible approaches and take note of the best of each one.</p>
-<blockquote><p>
-  <q>“Does it better” will always beat “did it first.”</q></p>
-<footer>
+<p>I looked at similar tools being offered by other digital asset management (DAM) platforms such as <a class="fancy-link" href="https://support.getbynder.com/hc/en-us/articles/207215415-How-do-I-select-Bynder-assets-in-Adobe-InDesign-" target="_blank">Bynder</a>, <a class="fancy-link" href="https://www.siliconpublishing.com/products/products_connector_webdam.html" target="_blank">WebDAM</a>, and <a class="fancy-link" href="http://www.widen.com/adobe-creative-cloud-connector" target="_blank">Widen</a> to see different possible approaches and take note of how they handled a similar process:</p>
+
+<ul class="list">
+  <li>Whether they were standalone apps, web views within InDesign, drag and drops directly from the browser or true InDesign add-ons</li>
+  <li>What the process to save, place and update was like</li>
+  <li>How natural the integration looked and felt in terms of visual consistency</li>
+</ul>
+
+<p>Although these plugins felt a little cumbersome to use and a little out place in terms of visuals, we knew we had some pretty strong competition in terms of functionality.</p>
+<blockquote>
+  <q>“Does it better” will always beat “did it first.”</q>
+  <footer>
     <cite title="Author">Aaron Levie</cite>,<br />
     CEO at Box<br />
   </footer>
 </blockquote>
+
 <h3>Analytics</h3>
 <p>I looked at platform reports generated by our customer support team and platform analytics to determine which actions we should expose for the plugin based on frequency of usage. The most commonly performed actions were typically sharing, deleting and renaming. Initially, we will let this data inform our design, but will track usage and reassess the efficiency of this decision in due course.</p>
+
 <h3>Journey mapping</h3>
-<p>We developed a few scenarios to cover how the plugin would be used and determine what the ideal user journey would be like.</p>
+<p>We developed a few scenarios / storyboards to cover the main use cases and determine what the ideal user journey would be like. We locked it all down into 3 main paths: 'placing from', 'saving to' and 'updating linked media'.</p>
+
 <figure class="outset">
-<div class="flex-it flex-align-item-start">
-  <img style="width:33.33%; height:auto; margin-right:10px;" src="../img/projects/ap-indesign/map-place.jpg" /><br />
-  <img style="width:33.33%; height:auto; margin-right:10px;" src="../img/projects/ap-indesign/map-links.jpg" /><br />
-  <img style="width:33.33%; height:auto;" src="../img/projects/ap-indesign/map-saveto.jpg" />
-</div>
-<figcaption>Some of the journey maps we created.</figcaption>
+  <div class="flex-it flex-align-item-start">
+    <img style="width:33.33%; height:auto; margin-right:10px;" src="../img/projects/ap-indesign/map-place.jpg" /><br />
+    <img style="width:33.33%; height:auto; margin-right:10px;" src="../img/projects/ap-indesign/map-links.jpg" /><br />
+    <img style="width:33.33%; height:auto;" src="../img/projects/ap-indesign/map-saveto.jpg" />
+  </div>
+  <figcaption>Some of the journey maps we created.</figcaption>
 </figure>
+
 <hr>
-<h2>Sketches &amp; wireframes</h2>
+
+<h2>Sketching</h2>
 <p>I sketched out some of what I figured would be the most important steps before moving on to more refined versions of the UI and micro-interactions.</p>
 <figure class="inset">
-  <img src="../img/projects/ap-indesign/sketches.jpg" /><br />
+  <img src="../img/projects/ap-indesign/sketches.jpg" />
 </figure>
 <hr>
+
 <h2>Visual design</h2>
 <p>The visual design was practically dictated by our UI Pattern Library and this being an InDesign plugin, it made sense to make use of our dark UI which is more in line with the Adobe suite of products and most likely what users would expect.</p>
-<figure class="full-width">
+<p>It also ties up nicely with our goal to make this experience feel as integrated with what Adobe InDesign users are accustomed to as possible.</p>
+
+<figure class="full">
   <img src="../img/projects/ap-indesign/symbols.png" /></p>
-<figcaption>This how my Sketch symbols ended up being at the end of the project.</figcaption>
+  <figcaption>This how my Sketch symbols ended up being at the end of the project.</figcaption>
 </figure>
-<blockquote><p>
-  <q>Design is not art. It is about crafting solutions to real issues.</q></p>
-<footer>
+
+<blockquote>
+  <q>Design is not art. It is about crafting solutions to real issues.</q>
+  <footer>
     <cite title="Author">Mark Boulton</cite><br />
   </footer>
 </blockquote>
+
 <figure class="outset">
   <img src="../img/projects/ap-indesign/session.jpg" /></p>
-<figcaption>Picture taken at one of our mapping sessions.</figcaption>
+  <figcaption>Picture taken at one of our mapping sessions.</figcaption>
 </figure>
-<p>Essentially, after mapping out all the required screens and modules to allow users to complete their journeys, I was able to start putting together the visual designs and testing them out as prototypes.</p>
-<figure class="full-width">
+
+<p>Essentially, after mapping out all the required screens and modules to allow users to complete their journeys, I was able to start putting together the visual designs and testing them out as prototypes with our internal Print Support team who have been in the industry for several years and have extensive knowledge of our users and their workflows, many of them coming from print studios themselves.</p>
+<figure class="full">
   <img src="../img/projects/ap-indesign/visualdesign.png" /><br />
 </figure>
+
 <hr>
+
 <h2>Prototype</h2>
-<p>I then created a quick click-through prototype in Adobe XD to test out the user journey with a few internal stakeholders from the print support team and collect their feedback and thoughts.</p>
+<p>I created a simple click-through prototype in Adobe XD to test out the user journey with a few internal stakeholders from the print support team and collect their feedback and thoughts.</p>
 <p>Journey test — Placing workflow<br />
 <a class="fancy-link" target="_blank" href="http://adobe.ly/1WiEhCj">http://adobe.ly/1WiEhCj</a><br />
 Made with: Adobe XD</p>
 <hr>
+
 <h2>Documentation</h2>
-<p>The development of this plugin was handled by the development team in Australia, so we had to minimise time spent reworking and provided pretty detailed specs, so we chose to use Zeplin to make this process easier.</p>
+<p>The development of this plugin was handled by a branch of our development team based in Australia, so we had to minimise time spent reworking and provided pretty detailed specs. We chose to use Zeplin to make this process easier.</p>
 <figure class="inset hide">
   <img src="https://www.dropbox.com/s/p6lr8uokko44wq3/16-9.png?dl=1" /><br />
 </figure>
+
 <hr>
+
 <h2>Conclusion</h2>
 <p>We have been monitoring usage of the plugin since its launch in November and we will be analysing tracking data and reports to see whether our implementation satisfies the needs of our users and then iterate on our solution as needed.</p>
 
@@ -349,7 +389,6 @@ Made with: Adobe XD</p>
     <div class="swiper-button swiper-button-prev swiper-button-white"><i class="material-icons">chevron_left</i></div>
     </div><!-- /swiper-container -->
   </section><!-- /section -->
-
 
   <!-- CONTACT -->
   <footer class="section padding flex-it flex-col flex-justify-center html-content contact" id="contact">

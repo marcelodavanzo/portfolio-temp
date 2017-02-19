@@ -102,22 +102,12 @@
 
   </header><!-- /header-nav -->
 
-
-
   <!-- HERO -->
   <section class="section padding dark hero-case" style="background-color:#ad93c3">
     <div class="inner padding-sides max-width">
 
       <div class="client-logo">
         <img src="../img/client_logos/white/adstream.svg" alt="Adstream Logo" />
-      </div>
-
-      <div class="palette ">
-        <div class="swatch color-1" style="background-color:#ffffff"></div>
-        <div class="swatch color-2" style="background-color:#f2f2f2"></div>
-        <div class="swatch color-3" style="background-color:#d3e6fb"></div>
-        <div class="swatch color-4" style="background-color:#3e7bbf"></div>
-        <div class="swatch color-5" style="background-color:#393e42"></div>
       </div>
 
       <div class="copy">
@@ -132,54 +122,65 @@
   <section class="section project-content html-content padding light white-bg">
     <div class="inner padding-sides max-width">
 
-      <h2>About the project</h2>
-<p>This was an effort to lay a foundation for all of Adstream’s future products, facilitate the work of both design and development teams, reducing the time it takes to create and deploy new features or modify existing ones by creating a UI pattern library that is part of a solid design system.</p>
+<h2>About the project</h2>
+<p>This was an effort to lay a foundation for all of Adstream’s future products, facilitate the work of both design and development teams, reducing the time it takes to create and deploy new features or modify existing ones by creating a UI pattern library that is part of a solid design system that unifies all of Adstream's products under the same visual identity.</p>
 <hr>
+
 <h2>What I did</h2>
-<p>I worked with our design and dev teams to create a comprehensive design system from the ground up that worked across all devices and platforms. Doing research, creating the structure of our design system, visual designs, running tests, creating interaction prototypes, all sorts of UI/UX explorations, specifications, documentation and overseeing the final implementation.</p>
+<p>I worked closely with the senior interaction designer and a team of developers to create a comprehensive design system from the ground up that worked across all devices and platforms. Doing research, creating the structure of our design system, visual designs, running tests, creating interaction prototypes, all sorts of UI/UX explorations, specifications, documentation and overseeing the final implementation.</p>
 <hr>
+
 <h2>Key accomplishment 🏅</h2>
 <p>The implementation of a well-structured design system has <mark>freed up an estimated 220 hours man hours per employee per month across both design and development teams</mark> which can now be allocated to other tasks.</p>
-<figure class="full-width">
+<figure class="full">
   <img src="../img/projects/ap-ui-lib/all-specs.png" /></p>
-<figcaption>An overview of how I documented our components. You can view the complete specs <a href="https://zpl.io/scene/Z2vvu3w" target="_blank">here in Zeplin</a>.</figcaption>
+  <figcaption>An overview of how I documented our components. You can view the complete specs <a href="https://zpl.io/scene/Z2vvu3w" target="_blank">here in Zeplin</a>.</figcaption>
 </figure>
+
 <h2>Objective</h2>
 <p>The current version of the Adstream suite of products (v5) was built circa 2011-2013 and its parts were designed and developed by many different teams — some internal, some outsourced. As a result of that, both the user interface and common interaction patterns differed greatly across Adstream&#8217;s range of digital products.</p>
 <p>When we first started discussing v6 of the platform, we knew that was the perfect time to devise a solution that made it possible for anyone, anywhere to create experiences that felt part of the same ecosystem, while making it easier for whoever is creating it to do the right thing, regardless of them being a designer or a developer.</p>
-<blockquote><p>
-  <q>Design for spread and scale.</q></p>
-<footer>
+
+<blockquote>
+  <q>Design for spread and scale.</q>
+  <footer>
     <cite title="Author">Denise Gershbein</cite>,<br />
     Creative Director at frog<br />
   </footer>
 </blockquote>
+
 <p>It was clear that we needed to put a stronger focus on our UI Pattern Library and this should be more than just a cosmetic endeavour. It should be a comprehensive design system and flexible enough to adapt to the ever-changing needs of this industry and our business.</p>
 <hr>
+
 <h2>Research</h2>
 <h3>Components</h3>
 <p>I started out by looking at each of Adstream’s products and discerning common patterns and components. From the most basic such as labels, icons, buttons, checkboxes, radio buttons, dropdowns, accordions; to more complex combinations such as panels, user tables, different types of modals, and so on.</p>
-<figure class="full-width">
-  <img src="../img/projects/ap-ui-lib/components.jpg" /></p>
-<figcaption>Some of my early sketches.</figcaption>
+
+<figure class="full">
+  <img src="../img/projects/ap-ui-lib/components.jpg" />
+  <figcaption>Some of my early sketches.</figcaption>
 </figure>
+
 <p>Having this granular approach allowed me to see the pattern library as a modular set of blocks we could put together to form larger and more complex structures. I didn’t go full on Atomic Design on this project but I did keep some of these principles in mind when categorising elements which definitely helped speed up the process and tie everything together nicely.</p>
 <h3>Deciding on a framework</h3>
 <p>The next step was to work with the development team and see what was readily available on the framework they were using to build the new version of the platform. Luckily they were using Angular Material which comes pre-packed with lots of useful components we could work with without much hassle. Some components would require a small amount of customisation, but for the most part, Angular Material provided a very solid starting point for what we wanted to achieve.</p>
+
 <figure class="outset">
-	<img src="../img/projects/ap-ui-lib/framework.png" /><br />
+	<img src="../img/projects/ap-ui-lib/framework.png" />
 </figure>
 <hr>
+
 <h2>Grid</h2>
 <p>We chose to use a 1280px max-width grid system with 12 columns and 30px gutters as that provided greater flexibility for the most common scenarios in our platform. It&#8217;s important to keep in mind that this should never hinder us from pursuing other layouts if we believe those would be more usable. Having a grid system shouldn’t be a constraint. It should serve as a foundation on top of which you can build your product, but concessions must be made here and there.</p>
-<blockquote><p>
-	<q>To say a grid is limiting is to say that language is limiting, or typography is limiting.</q></p>
+
+<blockquote>
+	<q>To say a grid is limiting is to say that language is limiting, or typography is limiting.</q>
 <footer>
 	<cite title="Author">Ellen Lupton</cite>,<br />
 		Curator of contemporary design at Cooper-Hewitt National Design Museum • NYC<br />
 	</footer>
 </blockquote>
-<figure class="full-width">
+<figure class="full">
 	<img src="../img/projects/ap-ui-lib/grid.png" /><br />
 </figure>
 <p>As an example, on the Adstream Library, we have a fixed side panel of 320px on the left and that&#8217;s always there regardless of what device you are on. However, the main view to the right of this panel contains thumbnails of your assets, within that view we apply our 1280px grid, but in this particular case, the 320px panel is excluded from the grid. This allows our users to use their full screen real estate to preview their assets in the Library, which we validated as a better solution than constraining them to 1280px at all times for this particular case.</p>
@@ -190,40 +191,47 @@
 <hr>
 <h2>Typography</h2>
 <p>Typography and semantics are very important aspects of what makes a web application accessible to users who rely on-screen readers. For this reason, our approach to typography was to not use elements such as <code class="inline">h1</code>, <code class="inline">h2</code>, <code class="inline">h3</code> to determine style. These elements are used for content hierarchy, making it easier for screen readers to consume the content and their style is limited to a specific font-size set in rem for which the base size is 16px. Styles such as font-weight, color, are all applied as modifier classes such as <code class="inline">.font-weight-light</code>, <code class="inline">.font-weight-medium</code>, <code class="inline">.font-weight-bold</code>, etc.</p>
-<figure class="full-width">
+<figure class="full">
 	<img src="../img/projects/ap-ui-lib/type.png" /></p>
 <figcaption>Effra is the typeface we used.</figcaption>
 </figure>
 <hr>
 <h2>Iconography</h2>
 <p>We used an icon set that is based on a 32px grid size and 2px lines. The idea is to refine and redesign them as our product and brand evolves.</p>
-<figure class="full-width">
+<figure class="full">
   <img src="../img/projects/ap-ui-lib/research.jpg" /><br />
 </figure>
 <hr>
+
 <h2>Colours</h2>
 <p>Colour is a key aspect of any interface and our approach to colour is to use it just enough to hint the user in terms of statuses, intents and visual cues that will make for an easier journey through their daily workflows. We do have a large set of colours to pick from, but the aim is to stick to as few as possible while thinking of the journey as steps. Never having more than one accent colour per step.</p>
+
 <h3>Primary</h3>
 <p>These are used for important actions and are bright and bold.</p>
-<figure class="full-width">
+<figure class="full">
   <img src="../img/projects/ap-ui-lib/colors-primary.png" /><br />
 </figure>
+
 <h3>Secondary</h3>
 <p>These are used to support primary colours when necessary. They are slightly less saturated and lighter versions of our Primary palette.</p>
-<figure class="full-width">
+<figure class="full">
   <img src="../img/projects/ap-ui-lib/colors-secondary.png" /><br />
 </figure>
+
 <h3>Shades of grey</h3>
 <p>We would in some parts of the platform, have a need for a dark version of our UI. I kept this in mind when defining this palette. This is why we’ve got plenty of shades of grey to pick from, but essentially every colour on the shades of grey palette has an equivalent counterpart that provides enough contrast against a dark background and this principle applies to every component.</p>
-<figure class="full-width">
+<figure class="full">
   <img src="../img/projects/ap-ui-lib/colors-gray.png" /><br />
 </figure>
 <p>You can literally drop a <code class="inline">.dark-ui</code> modifier class to an entire section and have all its children adjust accordingly.</p>
-<figure class="full-width">
+
+<figure class="full">
   <video class="video videoFull" autoplay muted playsinline loop poster="//www.marcelodavanzo.com/wp-content/themes/davanzo/img/projects/ap-ui-lib/dark-ui.png"><source src="//zippy.gfycat.com/SinfulEsteemedDutchsmoushond.webm" type="video/mp4"><img src="//d2mxuefqeaa7sj.cloudfront.net/s_C97CD72DB4ED3C5020AEDD8FA8B9916E9447D832767CF1C08AB82F7B1555CEE9_1480190189294_Screenflick+Movie+17-720.gif" /></video></p>
 <figcaption>Hang on, here comes the best part&#8230; there you go!</figcaption>
 </figure>
+
 <hr>
+
 <h2>Visual design</h2>
 <p>After deciding on solid grid and type systems and defining the colour palette, I then started designing each component with their different states in a manner that brought the entire library together and gave a sense of unity to the user.</p>
 <blockquote><p>
@@ -233,15 +241,19 @@
   	Author of ‘Apps For All: Coding Accessible Web Applications’<br />
   </footer>
 </blockquote>
+
 <p>At this stage, I ran lots of tests in HTML, CSS to see what was reasonable and these tests combined eventually went on to become a framework of its own that I ended up using to develop future prototypes.</p>
 <p>During the development of these tests, I used a <a class="fancy-link" href="https://en.bem.info/methodology/" target="_blank">BEM approach</a> in terms of naming conventions for states and modified versions of components. Having a background in front end development gave me great insight into how I could make it easier for developers to implement this pattern library as well as how we could make it extremely flexible, scalable and somewhat future-proof &ndash; at least for a while. 😉</p>
 <p>Semantics has always been very important in the realm of web development, especially when dealing with large enterprise level software. I’ve kept this in mind when developing these components, what this means is that wherever possible, elements use their correct HTML tags when available. This applies to <code class="inline">button</code>, <code class="inline">input</code>, <code class="inline">nav</code>, <code class="inline">detail</code>, <code class="inline">ul</code>, <code class="inline">ol</code>, <code class="inline">li</code>, <code class="inline">table</code>, and so on.</p>
 <hr>
+
 <p><strong>Adstream Wayfinder Pattern Library – Framework Prototype</strong><br />
   <a class="fancy-link" href="http://s.codepen.io/marcelodavanzo/debug/ef812281dc4a6cc73daf9d2ee0007aa5" target="_blank">Preview it here.</a><br />
   Made with: HTML, CSS, JS &amp; jQuery
 </p>
+
 <hr>
+
 <h2>Interactions &amp; micro-interactions</h2>
 <p>Below are some examples of the way we envisioned the micro-interactions on some of our components.</p>
 <div class="flex-it flex-align-item-start" style="margin-bottom:10px;">
