@@ -128,6 +128,7 @@
 
 <h2>What I did</h2>
 <p>I worked closely with the senior interaction designer and a team of developers to create a comprehensive design system from the ground up that worked across all devices and platforms. Doing research, creating the structure of our design system, visual designs, running tests, creating interaction prototypes, all sorts of UI/UX explorations, specifications, documentation and overseeing the final implementation.</p>
+<p>As the design system is an ongoing effort, I am also responsible for considering potential updates to it, new additions in terms of components, and making sure we are using our components correctly and consistently as our platform evolves.</p>
 <hr>
 
 <h2>Key accomplishment 🏅</h2>
@@ -171,7 +172,7 @@
 <hr>
 
 <h2>Grid</h2>
-<p>We chose to use a 1280px max-width grid system with 12 columns and 30px gutters as that provided greater flexibility for the most common scenarios in our platform. It&#8217;s important to keep in mind that this should never hinder us from pursuing other layouts if we believe those would be more usable. Having a grid system shouldn’t be a constraint. It should serve as a foundation on top of which you can build your product, but concessions must be made here and there.</p>
+<p>We chose to use a 1280px max-width grid system with 12 columns and 32px gutters as that provided greater flexibility for the most common scenarios in our platform. It&#8217;s important to keep in mind that this should never hinder us from pursuing other layouts if we believe those would be more usable. Having a grid system shouldn’t be a constraint. It should serve as a foundation on top of which you can build your product, but concessions must be made here and there.</p>
 
 <blockquote>
 	<q>To say a grid is limiting is to say that language is limiting, or typography is limiting.</q>
@@ -242,9 +243,9 @@
   </footer>
 </blockquote>
 
-<p>At this stage, I ran lots of tests in HTML, CSS to see what was reasonable and these tests combined eventually went on to become a framework of its own that I ended up using to develop future prototypes.</p>
+<p>At this stage, I ran lots of tests in HTML, CSS to see what was reasonable and these tests combined eventually went on to become <a class="fancy-link" href="http://s.codepen.io/marcelodavanzo/debug/ef812281dc4a6cc73daf9d2ee0007aa5" target="_blank">a framework of its own</a> that I ended up using to develop future high-fidelity prototypes for other areas of the platform when required.</p>
 <p>During the development of these tests, I used a <a class="fancy-link" href="https://en.bem.info/methodology/" target="_blank">BEM approach</a> in terms of naming conventions for states and modified versions of components. Having a background in front end development gave me great insight into how I could make it easier for developers to implement this pattern library as well as how we could make it extremely flexible, scalable and somewhat future-proof &ndash; at least for a while. 😉</p>
-<p>Semantics has always been very important in the realm of web development, especially when dealing with large enterprise level software. I’ve kept this in mind when developing these components, what this means is that wherever possible, elements use their correct HTML tags when available. This applies to <code class="inline">button</code>, <code class="inline">input</code>, <code class="inline">nav</code>, <code class="inline">detail</code>, <code class="inline">ul</code>, <code class="inline">ol</code>, <code class="inline">li</code>, <code class="inline">table</code>, and so on.</p>
+<p>Semantics have always been very important in the realm of web development, especially when dealing with large enterprise level software. I’ve kept this in mind when developing these components, what this means is that wherever possible, elements use their correct HTML tags when available. This applies to <code class="inline">button</code>, <code class="inline">input</code>, <code class="inline">nav</code>, <code class="inline">detail</code>, <code class="inline">ul</code>, <code class="inline">ol</code>, <code class="inline">li</code>, <code class="inline">table</code>, and so on.</p>
 <hr>
 
 <p><strong>Adstream Wayfinder Pattern Library – Framework Prototype</strong><br />
@@ -285,19 +286,22 @@
   <img src="../img/projects/ap-ui-lib/sketch_symbols.png" /></p>
 <figcaption>My Sketch symbols library with all of the Adstream UI components.</figcaption>
 </figure>
+
 <h3>The framework</h3>
 <p>I also like to exemplify things with code when necessary. This really helps ground my work and convey my ideas in a more direct kind of way to our devs since HTML and CSS is ultimately the media these components will be based on. While some great looking things can be accomplished in the prototyping tools available these days, some ideas simply don’t translate well to real life scenarios.</p>
-<p>Using HTML, CSS and JS allows me to run quick experiments and tweak the details that will bring delight to our users like transitions, animations and how responsive each component feels.</p>
+<p>Using HTML, CSS and JS allows me to run quick experiments and tweak the details that will bring delight to our users like transitions, animations, easing curves and how responsive each component feels.</p>
 <p>It started as a set of quick experiments but after a while I had gathered enough to compile <a class="fancy-link" href="http://s.codepen.io/marcelodavanzo/debug/ef812281dc4a6cc73daf9d2ee0007aa5" target="_blank">our own framework of components</a>.</p>
 <p>We currently use this framework in specific cases where we need high-fidelity prototypes.</p>
 <hr>
+
 <h2>Specs &amp; production</h2>
-<p>A design system is only as good as its documentation, so we have been documenting all the components with Zeplin and working closely with the developers in bringing them to life one by one.</p>
-<p>The new modules of the Adstream Platform (Costs and Tasks) have already been designed with those new components and we are now in the process of rolling them out to our first users.</p>
+<p>A design system is only as good as its <a class="fancy-link" href="https://scene.zeplin.io/project/57f4d4180f5fc34a1c801e22" target="_blank">documentation</a>, so we have been documenting all the components with Zeplin and working closely with the developers in bringing them to life one by one.</p>
+<p>The new modules of the Adstream Platform (Library, Costs, and soon Delivery and Tasks) have already been designed with those new components and we are now in the process of rolling them out to our first users.</p>
 <figure class="outset">
-  <img src="../img/projects/ap-ui-lib/specs.png" /><br />
+  <img src="../img/projects/ap-ui-lib/specs.png" />
 </figure>
 <hr>
+
 <h2>Conclusion</h2>
 <p>Having a pattern library in place has drastically improved our productivity. We are now able to spend more time prototyping, implementing, testing and iterating on ideas, instead of thinking about mundane things like how buttons or inputs should look or work. It lets us think of the bigger picture and be more… agile — there, I said it. 😬</p>
 <p>It&#8217;s also great in the sense that we no longer get attached to our design decisions since they’ve essentially already been made for us, this allows us to ruthlessly scrap ideas that aren’t working and come up with new ones.</p>
@@ -308,6 +312,7 @@
     Innovation Executive • formerly at McDonald’s<br />
   </footer>
 </blockquote>
+
 <p>That said, a pattern library is an ongoing process. It should never really be finished. Components can now safely be improved upon and tweaked since they are their own modular entities and this allows us to revisit them often and make adjustments that won’t require an entire restructure of our platform or a massive version release.</p>
 <hr>
 <h2>References</h2>
