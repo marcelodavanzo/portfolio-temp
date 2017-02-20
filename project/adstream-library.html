@@ -137,11 +137,6 @@
 <hr>
 -->
 
-<figure class="outset">
-  <img src="../img/projects/ap-library/all_assets.png" />
-  <figcaption>The main asset view screen.</figcaption>
-</figure>
-
 <h2>What is Adstream</h2>
 <p>The <a class="fancy-link" href="http://www.adstream.com/platform/" target="_blank">Adstream Platform</a> is the world&#8217;s leading cloud-based advertising workflow and collaboration software (SaaS) tool used by brands, agencies, studios and broadcasters worldwide to manage and deliver global creative content in both traditional and new media formats, connecting content to over 40,000 global destinations in over 116 countries. Everything on the Adstream Platform is searchable and reportable.</p>
 <figure class="outset">
@@ -152,7 +147,7 @@
 <hr>
 
 <h2>What is the Adstream Library</h2>
-<p>The <a class="fancy-link" href="http://www.adstream.com/platform/library" target="_blank">Adstream Library</a> is one of the main modules of the Adstream platform and it allows users to keep all their finalised assets in a central repository. It is Adstream’s Digital Asset Management (DAM) solution, used by hundreds of clients around the world to store, manage, track, and deliver marketing and advertising content.</p>
+<p><!-- With over 110.000 active users, the -->The <a class="fancy-link" href="http://www.adstream.com/platform/library" target="_blank">Adstream Library</a> is one of the main modules of the Adstream platform and it allows users to keep all their finalised assets in a central repository. It is Adstream’s Digital Asset Management (DAM) solution, used by hundreds of clients around the world to store, manage, track, and deliver marketing and advertising content.</p>
 
 <p>It allows users to tag each and every asset with fully customisable metadata regardless of media type, making their libraries fully searchable and accessible from anywhere, at any time. It offers full reporting capabilities and provides visibility on how many times each asset has been shared, viewed, downloaded, by whom amongst other data points.</p>
 
@@ -160,13 +155,23 @@
 
 <hr>
 
-<h2>Objective</h2>
-<p>The previous version of Library (v5), was designed in 2013 and was geared towards workflows that had become slightly outdated since then. We wanted to bring the Library up to speed with Adstream’s new Wayfinder UI Pattern Library while rethinking some of the core functionality to suit more modern workflows such as those used in the areas of Video on demand (VoD) and digital publishing.</p>
+<h2>The problem</h2>
+<p>The previous version of Library (v5), was developed in 2012 on CHT, a custom framework developed by an internal engineer. This framework was great at the time, as it was tailor made for the very specific needs of the business. However, as time went on, it became harder and harder to implement new features or even revisit existing ones because so much of our platform relied on legacy code that was no longer being maintained. On top of this, very few of our engineers had the necessary knowledge of this framework to make any signifcant contributions to the code base.</p>
+<p>Our chief architect pushed the idea to modernise the entire code base as a way to make Adstream flexible and scalable and the Library was chosen as the first module to be redeveloped due to its relative simplicity in comparison to other core areas such as Delivery and Projects.</p>
+
 <hr>
+
+<h2>Objective</h2>
+<p>Besides simply modernising the Library and aligning its visual design to the <a class="fancy-link" href="adstream-ui-library.html" target="_blank">Wayfinder design system</a> we had been developing, this was also a great opportunity to reevaluate some of the core functionality and add support to more modern workflows that had been neglected due to platform limitations, ie. Video on demand (VoD) and digital publishing that became more common in recent years.</p>
+
+<figure class="full">
+  <img src="../img/projects/ap-library/old_ui.png" />
+  <figcaption>This is what v5 looked like.</figcaption>
+</figure>
 
 <h2>Research</h2>
 <h3>Analytics</h3>
-<p>We started out by working with our Analytics team and pulling reports on various areas of the old Library to try and figure out what could potentially be improved and learn more about how users had been using it up until that point.</p>
+<p>We started out by working with our Analytics team and pulling reports on various areas of the Library v5 to learn more about how users had been working up until that point.</p>
 
 <blockquote>
   <q>Your old site is the best prototype of your new site.</q>
@@ -177,6 +182,7 @@
 </blockquote>
 
 <p>We found one of the most helpful indicators of usability was to look at a breakdown of all possible actions a user could take in the Library — things like uploading an asset, sharing it, previewing it, downloading it, etc. — and made our initial assumptions on what’s working vs what’s not, which actions should have more prominence and set our priorities based on those figures.</p>
+<p>Certain features were hardly ever used. 'Add to a work request' for example had approximately 3-4 uses each month. Alongside product managers, this was essentially how we decided which features would be a priority for an MVP and which ones would be pushed back or removed entirely.</p>
 
 <figure class="outset">
   <img src="../img/projects/ap-library/analytics.png" />
@@ -186,8 +192,8 @@
 <hr>
 
 <h3>Competitive analysis</h3>
-<p>I looked at other similar tools to try and pick out interesting patterns and get a sense of how similar tasks could be completed with slightly different approaches.</p>
-<p>My analysis comprised simple interactions such as:</p>
+<p>I looked at other similar tools to try and pick out interesting patterns and get a sense of how similar tasks could be completed with slightly different approaches. I also wanted to see whether there was a gap in feature set when comparing our Library to other tools.</p>
+<p>My analysis comprised simple aspects such as:</p>
 
 <ul class="list">
   <li>Selecting a file and how that affects the actions that are exposed to the user.</li>
@@ -225,11 +231,12 @@
 <h2>IA &#038; sketching</h2>
 <p>It was paramount that the architecture, structure and language of the new Library matched the priorities of our users.</p>
 <p>We started those explorations with simple sketches and wireframes as these were the quickest way to test new concepts and get them to a stage where layout, messaging and the flow could be assessed. This happened over many sessions with the team.</p>
+<p>Here we were aiming at structuring content, reviewing navigation patterns, testing layouts and screenflows in a way that made sense while not straying too far from what made the Library such a powerful tool.</p>
 
 <blockquote>
   <q>You can use an eraser on the drafting table or a sledge hammer on the construction site.</q>
   <footer>
-    <cite title="Author">Frank Lloyd Wright</cite><br />
+    <cite title="Author">Frank Lloyd Wright</cite>
   </footer>
 </blockquote>
 
@@ -240,9 +247,9 @@
 <hr>
 
 <h2>Prototyping &#038; user testing</h2>
-<p>Once we were happy with our results — and after a few internal usability and feedback sessions with members of other teams — it was time to do our homework so we could properly test things out and hear directly from our users — which is the most exciting part.</p>
+<p>Once we were happy with our results — and after a few internal usability and feedback sessions with members of other teams — it was time to do our homework so we could properly test things out and hear directly from our users — which is the most exciting part!</p>
 <p>This being enterprise software we had to keep in mind most of our users don’t actively choose to use our systems, their organisation often chooses it for them.</p>
-<p>Because of this, it can be difficult to get a hold of users for testing, but once you get access to them, they will often have a lot to say about your product and most the time are quite happy to provide feedback on things that could make their lives easier.</p>
+<p>Because of this, it can be difficult to get a hold of users for testing, but once you get access to them, they will often have a lot to say about your product and most the time are quite happy to provide feedback on things that could potentially make their lives easier.</p>
 <p>For this particular case, we approached a few agencies and asked for a few contacts that would be willing to participate in our tests. We explained they would be sent a link with a script to try out the new Library.</p>
 <p>All we had to do was prepare a script and a <a class="fancy-link" href="http://y2ntb8.axshare.com/#g=1&p=assets" target="_blank">prototype</a> they could play with. Long story short, we snuck some analytics scripts into our prototype and measured them on completion times, dwell times and total task completion. We tested things like uploading an asset, tagging, sharing, searching and sorting which cover 90% of what users typically do in the Library.</p>
 
@@ -259,15 +266,15 @@ Made with: Axure</p>
 <h2>Results</h2>
 <p>We found that most users were able to complete the tasks quite easily and were mostly happy with the new version of the Library.</p>
 <p>The only pain point raised was creating and managing collections, which essentially work as ‘smart folders’ or ‘rules’ in Outlook. You set a few rules based on metadata and every time something is added to your Library that matches those rules, that new asset automatically becomes part of the Collection(s) it matches.</p>
-<p>We learned that users needed a clear visual distinction between what is a ‘loose’ asset and a collection. This led us to effectively splitting both into their own areas, which is reflected on the visual designs you see below.</p>
+<p>We learned that users needed a clear visual distinction between what is a ‘loose’ asset and a collection. This led us to effectively split both into their own areas, which is reflected on the visual designs you see below.</p>
 <hr>
 
 <h2>Visual design</h2>
-<p>We now had everything we needed to start refining the visual design and making sure this wasn’t just a UI refresh but a chance to improve upon the overall experience for our users.</p>
+<p>We now had everything we needed to start refining the visual design and making sure this wasn't just a UI refresh but a chance to improve upon the overall experience for our users.</p>
 
-<figure class="outset hide">
-  <img src="https://www.dropbox.com/s/8ra563ngskcelpx/Full_height474.png?dl=1" /></p>
-  <figcaption>[pic of final designs &#8211; as in the Zeplin specs. Multiple screens] Sketch symbols made testing subtle design changes very easy.</figcaption>
+<figure class="full">
+  <img src="../img/projects/ap-library/final_visual.jpg" />
+  <figcaption>All asset (grid and table) views, collections view and asset preview (document, video, image, audio).</figcaption>
 </figure>
 
 <p>At this stage I also produced some prototypes to save us a few headaches and have a chance to test and refine things like layout and interactions before the developers started writing code. Here are some of them:</p>
@@ -286,24 +293,22 @@ Made with: Angular Material framework — HTML, CSS &#038; JS</p>
 
 <hr>
 
-<figure class="outset">
-  <img src="../img/projects/ap-library/asset_preview.png" /></p>
-  <figcaption>The asset preview screen.</figcaption>
-</figure>
+<p>We also reviewed and documented some smaller stories such as the frame grabber (pretty self-explanatory, only avilable on video files) and devised systems for things like comments and activity feeds in a way that made them more contextual.</p>
 
 <figure class="full">
-  <img src="../img/projects/ap-library/frame_grabber.png" /></p>
+  <img src="../img/projects/ap-library/frame_grabber.png" />
   <figcaption>Screen flows done for the frame grabber tool that is avilable on video files.</figcaption>
 </figure>
 
 <figure class="full">
-  <img src="../img/projects/ap-library/activity.png" /></p>
+  <img src="../img/projects/ap-library/activity.png" />
   <figcaption>The spec document for our activity feeds.</figcaption>
 </figure>
 <hr>
 
 <h2>Specs &#038; production</h2>
-<p>We then documented every story in this epic to allow the devs to start bringing the Library to life. We used Zeplin for specs which saved us a lot of time and did weekly catch ups to make sure we were all on the same page and could spot inconsistencies early enough to fix them. </p>
+<p>We then documented every story in this epic to allow the devs to start bringing the Library to life. We used Zeplin for specs which saved us a lot of time and did weekly catch ups to make sure we were all on the same page and could spot inconsistencies early enough to fix them.</p>
+
 <figure class="outset">
   <img src="../img/projects/ap-library/zeplin.png" /></p>
   <figcaption>All different views and layouts have been documented and described in Zeplin where we keep all our official design documentation.</figcaption>
